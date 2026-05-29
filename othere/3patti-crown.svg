@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#002b06"/><stop offset="1" stop-color="#66ff00"/></linearGradient></defs>
+  <rect width="512" height="512" rx="86" fill="url(#g)"/>
+  <rect x="16" y="16" width="480" height="480" rx="76" fill="none" stroke="#f4da48" stroke-width="16"/>
+  <text x="256" y="214" text-anchor="middle" font-family="Arial Black, Arial" font-size="98" fill="#7aff3d">3PATTI</text>
+  <path d="M177 282h158l-18 48H195z" fill="#ffe856"/>
+  <path d="M196 279l26-55 35 50 35-50 26 55z" fill="#ffe856"/>
+  <text x="256" y="395" text-anchor="middle" font-family="Arial Black, Arial" font-size="78" fill="#f9ff55">CROWN</text>
+</svg>

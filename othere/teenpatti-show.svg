@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#130054"/><stop offset=".55" stop-color="#c1008d"/><stop offset="1" stop-color="#ffd23f"/></linearGradient></defs>
+  <rect width="512" height="512" rx="86" fill="url(#g)"/>
+  <rect x="58" y="42" width="88" height="134" rx="12" fill="#fff" transform="rotate(-13 102 109)"/>
+  <rect x="174" y="30" width="88" height="134" rx="12" fill="#fff"/>
+  <rect x="290" y="42" width="88" height="134" rx="12" fill="#fff" transform="rotate(13 334 109)"/>
+  <text x="256" y="279" text-anchor="middle" font-family="Arial Black, Arial" font-size="66" fill="#ffef42">TEENPATTI</text>
+  <text x="256" y="378" text-anchor="middle" font-family="Arial Black, Arial" font-size="86" fill="#fff">SHOW</text>
+</svg>

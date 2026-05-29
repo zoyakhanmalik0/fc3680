@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#180033"/><stop offset="1" stop-color="#ffab00"/></linearGradient></defs>
+  <rect width="512" height="512" rx="86" fill="url(#g)"/>
+  <rect x="56" y="50" width="92" height="138" rx="12" fill="#fff" transform="rotate(-10 102 119)"/>
+  <rect x="178" y="38" width="92" height="138" rx="12" fill="#fff"/>
+  <rect x="300" y="50" width="92" height="138" rx="12" fill="#fff" transform="rotate(10 346 119)"/>
+  <text x="256" y="300" text-anchor="middle" font-family="Arial Black, Arial" font-size="82" fill="#ffef44">3PATTI</text>
+  <text x="256" y="397" text-anchor="middle" font-family="Arial Black, Arial" font-size="104" fill="#ff0054">NO.1</text>
+</svg>
