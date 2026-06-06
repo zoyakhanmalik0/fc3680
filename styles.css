@@ -190,6 +190,28 @@ a {
   background: #eef2f7;
 }
 
+/* Responsive video embed matching screenshot aspect and behavior */
+.video-embed {
+  margin: 0;
+}
+.video-embed .embed-responsive {
+  position: relative;
+  padding-top: 56.25%; /* 16:9 */
+  width: 100%;
+  border-radius: 2px;
+  overflow: hidden;
+  background: #000;
+}
+.video-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
 .detail-section {
   padding: 0 0 18px;
   border-bottom: 1px solid var(--line);
@@ -781,6 +803,12 @@ a {
     scroll-snap-align: start;
   }
 
+  .media-strip .video-embed {
+    flex: 0 0 82%;
+    max-width: 360px;
+    scroll-snap-align: start;
+  }
+
   .games-section {
     padding-top: 32px;
   }
@@ -864,6 +892,12 @@ a {
     grid-auto-columns: minmax(272px, 72vw);
   }
 
+  .media-strip .video-embed {
+    flex: 0 0 88%;
+    max-width: 320px;
+    scroll-snap-align: start;
+  }
+
   .hot-game-card {
     grid-template-columns: 74px 1fr;
     gap: 13px;
@@ -907,5 +941,37 @@ a {
 
   .helpful-actions button {
     min-width: 62px;
+  }
+}
+
+/* Ensure the video embed matches screenshot sizing and is full-width on mobile */
+.media-strip .video-embed,
+.media-strip .video-embed .embed-responsive {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 2px;
+  overflow: hidden;
+  background: #000;
+}
+.media-strip .video-embed .embed-responsive {
+  position: relative;
+  padding-top: 56.25%;
+}
+.media-strip .video-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+@media (max-width: 720px) {
+  .media-strip img,
+  .media-strip .video-embed {
+    flex: 0 0 100%;
+    max-width: 100%;
+    scroll-snap-align: start;
   }
 }
